@@ -3,7 +3,7 @@ import logging
 import time
 import json
 from pathlib import Path
-from openai import OpenAI, APIError
+from openai import OpenAI, APIError # type: ignore
 
 # 使用模組級別的 logger
 logger = logging.getLogger(__name__)

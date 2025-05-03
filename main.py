@@ -2,7 +2,7 @@
 import logging
 import sys
 from pathlib import Path
-from openai import OpenAI
+from openai import OpenAI # type: ignore
 from typing import Optional, List
 import os
 
